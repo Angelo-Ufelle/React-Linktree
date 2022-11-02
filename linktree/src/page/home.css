@@ -1,5 +1,18 @@
-.test{
-    width: 100%;
-    height: 50px;
-    background-color: aliceblue;
+#profile__img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    width: 88px;
+    height: 88px;
+    border-radius: 275px;
+
+/* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 0;
 }

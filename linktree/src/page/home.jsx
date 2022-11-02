@@ -2,8 +2,6 @@ import "./home.css"
 
 export default function Home() {
     return (
-        <div className="test">
-            Home Page
-        </div>
+            <img src="./IMG-20220722-WA0014.jpg" alt="profile" id="profile__img" />
     )
 }
