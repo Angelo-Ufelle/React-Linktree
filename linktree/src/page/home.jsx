@@ -2,16 +2,17 @@ import "./home.css"
 
 export default function Home() {
     return (
-            <div className="test">
-                <div className="team_content">
-                    <h1>
-                        Meet the minds behind <span>Auth</span>Wiki
-                    </h1>
-                    <p>
-                        Team Authwiki is comprised of 28 young and vibrant members
-                        ranging from developers to designers who activitely contributed
-                        to the development of this platform
-                    </p>
+            <div className="test-container">
+                <div class="about-container">
+                    <div class="wrapper">
+                        <img src="/asset/IMG-20220722-WA0014.jpg" alt="profile" id="profile__img" />
+                    </div>
+                </div>
+                <div className="name">
+                    <h3>Annette Black</h3>
+                </div>
+                <div className="link-blocks">
+                    <p>Twitter Link</p>
                 </div>
             </div>
     )
