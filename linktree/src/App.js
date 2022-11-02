@@ -1,10 +1,10 @@
-
+import Home from "./page/home";
 
 function App() {
   return (
-    <div className="App">
-      Link Tree
-    </div>
+    <>
+        <Home/>
+    </>
   );
 }
 
