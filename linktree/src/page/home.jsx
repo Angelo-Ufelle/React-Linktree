@@ -14,6 +14,21 @@ export default function Home() {
                 <div className="link-blocks">
                     <p>Twitter Link</p>
                 </div>
+                <div className="link-blocks">
+                    <p>Zuri Team</p>
+                </div>
+                <div className="link-blocks">
+                    <p>Zuri Books</p>
+                </div>
+                <div className="link-blocks">
+                    <p>Python Books</p>
+                </div>
+                <div className="link-blocks">
+                    <p>Background Check for Coders</p>
+                </div>
+                <div className="link-blocks">
+                    <p>Design Books</p>
+                </div>
             </div>
     )
 }
